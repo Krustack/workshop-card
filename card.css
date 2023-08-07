@@ -48,3 +48,78 @@
    border: 0;
    border-radius: 4px;
 }
+
+.card-4 {
+   width:200px;
+   border-radius: 8px;
+   border : solid 2px #f88dfc;
+   margin-bottom: 16px;
+}
+.card-4 img{
+   border-radius: 8px 8px 0 0;
+}
+.card-4 h3,p {
+   padding-left:8px;
+}
+.card-4 ul{
+   list-style: none;
+   padding: 8px;
+   
+}
+.card-4 li {
+   display:inline-block;
+}
+.card-4 .item1 {
+   background-color: #24c73f;
+   padding: 4px;
+   margin: 4px;
+   border-radius: 8px;
+}
+.card-4 .item2 {
+   background-color: #5645e9;
+   color:#fff;
+   padding: 4px;
+   margin: 4px;
+   border-radius: 8px;
+   
+}
+.card-4 .item3 {
+   background-color: #e08bc8;
+   padding: 4px;
+   margin: 4px;
+   border-radius: 8px;
+}
+.card-4 .item4 {
+   background-color: #017b77;
+   color:#fff;
+   padding: 4px;
+   margin: 4px;
+   border-radius: 8px;
+}
+
+.card-5 {
+   width:200px;
+   border-radius: 8px;
+   border : solid 2px #e02d2d;
+   margin-bottom: 16px;
+}
+.card-5 img{
+   display: block;
+   margin: 0 auto;
+   margin-top: 8px;
+}
+.card-5 h3,p {
+   text-align: center;
+}
+.card-5 button {
+   display: block;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 8px;
+   padding: 16px;
+   background-color: #e02d2d;
+   color: #fff;
+   border: 0;
+   border-radius: 4px;
+}
