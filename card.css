@@ -1,0 +1,50 @@
+.card-1{
+   width:150px;
+   border-radius: 8px;
+   border : solid 2px #6d94ff;
+   padding: 8px;
+   margin-bottom: 16px;
+}
+.card-1 h3 {
+   margin: 0;
+   padding: 4px;
+   text-align: center;
+   border-bottom: solid 2px #6d94ff ;
+}
+.card-2 {
+   width:200px;
+   border-radius: 8px;
+   border : solid 2px #24c73f;
+   margin-bottom: 16px;
+}
+.card-2 img{
+   border-radius: 8px 8px 0 0;
+}
+.card-2 h3,p {
+   padding-left:8px;
+}
+
+.card-3 {
+   width:200px;
+   border-radius: 8px;
+   border : solid 2px #f88dfc;
+   margin-bottom: 16px;
+}
+.card-3 img{
+   border-radius: 8px 8px 0 0;
+}
+.card-3 h3,p {
+   padding-left:8px;
+}
+.card-3 button {
+   display: block;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 8px;
+   padding: 16px;
+   background-color: #f88dfc;
+   color: #fff;
+   border: 0;
+   border-radius: 4px;
+}
