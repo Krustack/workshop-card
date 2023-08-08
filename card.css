@@ -1,125 +1,303 @@
+.like {
+    background-color: #462eff;
+    color: #fff;
+    
+ }
+ .share{
+    background-color: #20e912;
+    color: #fff;
+    
+ }
 .card-1{
-   width:150px;
-   border-radius: 8px;
-   border : solid 2px #6d94ff;
-   padding: 8px;
-   margin-bottom: 16px;
-}
-.card-1 h3 {
-   margin: 0;
-   padding: 4px;
-   text-align: center;
-   border-bottom: solid 2px #6d94ff ;
-}
-.card-2 {
-   width:200px;
-   border-radius: 8px;
-   border : solid 2px #24c73f;
-   margin-bottom: 16px;
-}
-.card-2 img{
-   border-radius: 8px 8px 0 0;
-}
-.card-2 h3,p {
-   padding-left:8px;
-}
+    width:150px;
+    border-radius: 8px;
+    border : solid 2px #6d94ff;
+    padding: 8px;
+    margin-bottom: 16px;
+ }
+ .card-1 h3 {
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+    border-bottom: solid 2px #6d94ff ;
+ }
+ .card-2 {
+    width:200px;
+    border-radius: 8px;
+    border : solid 2px #24c73f;
+    margin-bottom: 16px;
+ }
+ .card-2 img{
+    border-radius: 8px 8px 0 0;
+ }
+ .card-2 h3,p {
+    padding-left:8px;
+ }
+ 
+ .card-3 {
+    width:200px;
+    border-radius: 8px;
+    border : solid 2px #f88dfc;
+    margin-bottom: 16px;
+ }
+ .card-3 img{
+    border-radius: 8px 8px 0 0;
+ }
+ .card-3 h3,p {
+    padding-left:8px;
+ }
+ .card-3 button {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    padding: 16px;
+    background-color: #f88dfc;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+ }
+ 
+ .card-4 {
+    width:200px;
+    border-radius: 8px;
+    border : solid 2px #f88dfc;
+    margin-bottom: 16px;
+ }
+ .card-4 img{
+    border-radius: 8px 8px 0 0;
+ }
+ .card-4 h3,p {
+    padding-left:8px;
+ }
+ .card-4 ul{
+    list-style: none;
+    padding: 8px;
+    
+ }
+ .card-4 li {
+    display:inline-block;
+ }
+ .card-4 .item1 {
+    background-color: #24c73f;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 8px;
+ }
+ .card-4 .item2 {
+    background-color: #5645e9;
+    color:#fff;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 8px;
+    
+ }
+ .card-4 .item3 {
+    background-color: #e08bc8;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 8px;
+ }
+ .card-4 .item4 {
+    background-color: #017b77;
+    color:#fff;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 8px;
+ }
+ 
+ .card-5 {
+    width:200px;
+    border-radius: 8px;
+    border : solid 2px #e02d2d;
+    margin-bottom: 16px;
+ }
+ .card-5 img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+ }
+ .card-5 h3,p {
+    text-align: center;
+ }
+ .card-5 button {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    padding: 16px;
+    background-color: #e02d2d;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+ }
+ .card-6 {
+    width:400px;
+    border-radius: 8px;
+    border : solid 2px #f48282;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+ }
+ .card-6 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .card-6 img{
+    border-radius: 8px 0 0 8px;
+ }
+ .card-6 p{
+    text-align: left;
+ }
 
-.card-3 {
-   width:200px;
-   border-radius: 8px;
-   border : solid 2px #f88dfc;
-   margin-bottom: 16px;
-}
-.card-3 img{
-   border-radius: 8px 8px 0 0;
-}
-.card-3 h3,p {
-   padding-left:8px;
-}
-.card-3 button {
-   display: block;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: 8px;
-   padding: 16px;
-   background-color: #f88dfc;
-   color: #fff;
-   border: 0;
-   border-radius: 4px;
-}
+ .card-7 {
+    width:100%;
+    border-radius: 8px;
+    border : solid 2px #f48282;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+ }
+ .card-7 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .card-7 img{
+    border-radius: 8px 0 0 8px;
+ }
+ .card-7 div{
+    margin-right: auto;
+ }
+ .card-7 p{
+    text-align: left;
+ }
+ .card-7 button{
+    width: 100px;
+    height: 70px;
+    background-color: #f48282;
+    border: 0;
+    margin-right: 8px;
+    color: #fff;
+    border-radius: 8px;
+ }
 
-.card-4 {
-   width:200px;
-   border-radius: 8px;
-   border : solid 2px #f88dfc;
-   margin-bottom: 16px;
-}
-.card-4 img{
-   border-radius: 8px 8px 0 0;
-}
-.card-4 h3,p {
-   padding-left:8px;
-}
-.card-4 ul{
-   list-style: none;
-   padding: 8px;
-   
-}
-.card-4 li {
-   display:inline-block;
-}
-.card-4 .item1 {
-   background-color: #24c73f;
-   padding: 4px;
-   margin: 4px;
-   border-radius: 8px;
-}
-.card-4 .item2 {
-   background-color: #5645e9;
-   color:#fff;
-   padding: 4px;
-   margin: 4px;
-   border-radius: 8px;
-   
-}
-.card-4 .item3 {
-   background-color: #e08bc8;
-   padding: 4px;
-   margin: 4px;
-   border-radius: 8px;
-}
-.card-4 .item4 {
-   background-color: #017b77;
-   color:#fff;
-   padding: 4px;
-   margin: 4px;
-   border-radius: 8px;
-}
+ .card-8 {
+    width:400px;
+    border-radius: 8px;
+    border : solid 2px #f48282;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+ }
+ .card-8 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .card-8 img{
+    border-radius: 8px 0 0 8px;
+ }
+ .card-8 p{
+    text-align: left;
+ }
+ .card-8 button {
+    width: 49%;
+    border: 0;
+ }
 
-.card-5 {
-   width:200px;
-   border-radius: 8px;
-   border : solid 2px #e02d2d;
-   margin-bottom: 16px;
-}
-.card-5 img{
-   display: block;
-   margin: 0 auto;
-   margin-top: 8px;
-}
-.card-5 h3,p {
-   text-align: center;
-}
-.card-5 button {
-   display: block;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: 8px;
-   padding: 16px;
-   background-color: #e02d2d;
-   color: #fff;
-   border: 0;
-   border-radius: 4px;
-}
+ .card-9 {
+    width:400px;
+    height: 100px;
+    border : solid 2px #f48282;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .card-9 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .card-9  div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .card-9 p{
+    text-align: left;
+    padding-left: 8px;
+ }
+ .card-9 h3{
+    padding-left: 8px;
+ }
+ .card-9 .btn-group {
+    flex-direction: row;
+ }
+ .card-9 button {
+    width: 50%;
+    border: 0;
+    height: 30px;
+    margin-top: auto;
+ }
+
+ .card-10 {
+    width:400px;
+    border : solid 2px #f48282;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .card-10 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .card-10  div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .card-10 h3{
+    padding-left: 8px;
+    border-bottom: solid 2px #f48282;
+ }
+ .card-10 p{
+    text-align: left;
+    padding-left: 8px;
+ }
+ .card-10 ul {
+    list-style: none;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+ }
+ .card-10 li {
+    background-color: #ff1f8b;
+    color: #fff;
+    padding: 4px;
+    border-radius: 8px;
+ }
+ .card-10 .btn-group {
+    flex-direction: row;
+ }
+ .card-10 button {
+    width: 50%;
+    border: 0;
+    height: 30px;
+    margin-top: auto;
+ }
