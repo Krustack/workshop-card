@@ -270,10 +270,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-left: solid 1px #f48282;
  }
  .card-10 h3{
     padding-left: 8px;
-    border-bottom: solid 2px #f48282;
+    border-bottom: solid 1px #f48282;
  }
  .card-10 p{
     text-align: left;
